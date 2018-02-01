@@ -19,6 +19,6 @@ positional arguments:
 
 optional arguments:
   -h, --help  prompts help message
-  -d, -dos    converts file to DOS line endings [\cr\n]
+  -d, -dos    converts file to DOS line endings [\\cr\\n]
 
 *Note: The files being converted should use UTF-8 encoding, other encodings are currently not supported.*
