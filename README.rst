@@ -5,7 +5,7 @@
 .. figure:: img/claim.gif
    :alt: Usage example.
 
-A convenient cli tool that converts file's `carriage returns
+A cli tool that converts file's `carriage returns
 <https://en.wikipedia.org/wiki/Carriage_return>`_ to `newlines
 <https://en.wikipedia.org/wiki/Newline>`_ or vice versa.
 
