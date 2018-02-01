@@ -5,9 +5,8 @@
 .. figure:: img/claim.gif
    :alt: Usage example.
 
-A cli tool that converts file's `carriage returns
-<https://en.wikipedia.org/wiki/Carriage_return>`_ to `newlines
-<https://en.wikipedia.org/wiki/Newline>`_ or vice versa.
+A cli tool that converts file's `line endings
+<https://en.wikipedia.org/wiki/Newline>`_ between DOS and Unix-like systems.
 
 install:
   :code:`pip install claim`
