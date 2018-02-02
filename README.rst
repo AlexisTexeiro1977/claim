@@ -2,9 +2,6 @@
 :bookmark_tabs: claim
 *****
 
-.. figure:: img/claim.gif
-   :alt: Usage example.
-
 A cli tool that converts file's `line endings
 <https://en.wikipedia.org/wiki/Newline>`_ between DOS and Unix-like systems.
 
