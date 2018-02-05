@@ -1,9 +1,15 @@
 # :bookmark_tabs: claim
 
 <p>
-    <img src="https://img.shields.io/badge/v-1.0.0--beta-blue.svg" alt="version">
-    <img src="https://badges.frapsoft.com/os/mit/mit.svg?v=102" alt="MIT License">
-    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="pull-requests">
+    <a href="https://pypi.python.org/pypi/claim/1.0.0b1">
+        <img src="https://img.shields.io/badge/v-1.0.0--beta-blue.svg" alt="version">
+    </a>
+    <a href="https://github.com/bukovyn/claim/blob/master/LICENSE.txt">
+        <img src="https://badges.frapsoft.com/os/mit/mit.svg?v=102" alt="MIT License">
+    </a>
+    <a href-"https://github.com/bukovyn/claim/pulls">
+        <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="pull-requests">
+    </a>
 </p>
 
 A cli tool that converts file's [line endings](https://en.wikipedia.org/wiki/Newline>) between DOS and Unix-like systems.
