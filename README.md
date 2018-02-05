@@ -7,7 +7,7 @@
     <a href="https://github.com/bukovyn/claim/blob/master/LICENSE.txt">
         <img src="https://badges.frapsoft.com/os/mit/mit.svg?v=102" alt="MIT License">
     </a>
-    <a href-"https://github.com/bukovyn/claim/pulls">
+    <a href="https://github.com/bukovyn/claim/pulls">
         <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="pull-requests">
     </a>
 </p>
