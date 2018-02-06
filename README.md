@@ -5,7 +5,7 @@
         <img src="https://img.shields.io/badge/v-1.0.0--beta-blue.svg" alt="version">
     </a>
     <a href="https://github.com/bukovyn/claim/blob/master/LICENSE.txt">
-        <img src="https://badges.frapsoft.com/os/mit/mit.svg?v=102" alt="MIT License">
+        <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License">
     </a>
     <a href="https://github.com/bukovyn/claim/pulls">
         <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="pull-requests">
