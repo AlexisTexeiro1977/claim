@@ -17,16 +17,16 @@ A cli tool that converts file's [line endings](https://en.wikipedia.org/wiki/New
 ### install
   ```pip install claim```
 
-### overview
+### usage
+  ```claim [-h] [-dos] filename [filename ...]```
+
+### positional arguments
+  ```filename```  *the file to be converted*
+
+### optional arguments
   ```
-usage: claim [-h] [-dos] filename [filename ...]
-
-positional arguments:
-  filename    file to be converted
-
-optional arguments:
-  -h, --help  show this help message and exit
-  -d, -dos        converts file to DOS line endings [\cr\n]
+  -h, --help  prompts help message
+  -d, -dos    converts file to DOS line endings [\cr\n]
   ```
 
 :grey_exclamation: *Note: The files being converted should use UTF-8 encoding, other encodings are currently not supported.*
