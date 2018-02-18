@@ -23,8 +23,7 @@ def main():
 
 
 def commands():
-    """
-    Sets up command line arguments and improper argument error handling.
+    """Sets up command line arguments and improper argument error handling.
 
     Returns:
         parser object
@@ -39,8 +38,7 @@ def commands():
 
 
 def convert(file, flag):
-    """
-    Converts the file's line endings appropriately.
+    """Converts the file's line endings appropriately.
 
     Args:
         file: the file being converted
