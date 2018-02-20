@@ -2,8 +2,8 @@
 
 """
 Text files created on DOS/Windows machines have different line endings than
-files created on Unix/Linux. DOS uses carriage return and line feed ("\r\n")
-as a line ending, while Unix uses just line feed ("\n"). The purpose of this
+files created on Unix/Linux. DOS uses carriage return and new line ("\r\n")
+as a line ending, while Unix uses just new line ("\n"). The purpose of this
 script is to have a quick, on the go, shell friendly solution to convert one
 to the other.
 """
