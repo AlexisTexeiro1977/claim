@@ -18,8 +18,8 @@ def main():
     sys.tracebacklimit = 0
     args = commands()
 
-    for file in args.filenames:
-        convert(file, args.dos)
+    for filename in args.filenames:
+        convert(filename, args.dos)
 
 
 def commands():
@@ -37,18 +37,18 @@ def commands():
     return parser.parse_args()
 
 
-def convert(file, flag):
+def convert(filename, flag):
     """ Converts the file's line endings appropriately.
 
         Args:
-            file (file): the file being converted
-            flag (boolean): defaults to UNIX. If flag is true, converts line endings to DOS
+            filename (string): the file being converted
+            flag (bool): defaults to UNIX. If flag is true, converts line endings to DOS
     """
 
     unix, dos = '\n', '\r\n'
     format = 'UNIX'
 
-    with open(file, 'rb') as f:
+    with open(filename, 'rb') as f:
         content = f.read().decode('UTF-8')
         if flag:
             format = 'DOS'
@@ -56,10 +56,10 @@ def convert(file, flag):
         else:
             content = content.replace(dos, unix)
 
-    with open(file, 'wb') as f:
+    with open(filename, 'wb') as f:
         f.write(content.encode('UTF-8'))
 
-    print("converting file '{}' to {} ...".format(file, format))
+    print("converting file '{}' to {} ...".format(filename, format))
 
 
 if __name__ == '__main__':
