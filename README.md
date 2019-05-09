@@ -12,7 +12,7 @@
     </a>
 </p>
 
-A cli tool that converts file's [line endings](https://en.wikipedia.org/wiki/Newline>) between DOS and Unix-like systems.
+A cli tool that converts file's line endings between DOS and Unix-like systems.
 
 ### install
   ```pip install claim```
