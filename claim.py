@@ -46,12 +46,12 @@ def convert(filename, flag):
     """
 
     unix, dos = '\n', '\r\n'
-    format = 'UNIX'
+    style = 'UNIX'
 
     with open(filename, 'rb') as f:
         content = f.read().decode('UTF-8')
         if flag:
-            format = 'DOS'
+            style = 'DOS'
             content = content.replace(unix, dos)
         else:
             content = content.replace(dos, unix)
@@ -59,7 +59,7 @@ def convert(filename, flag):
     with open(filename, 'wb') as f:
         f.write(content.encode('UTF-8'))
 
-    print("converting file '{}' to {} ...".format(filename, format))
+    print("converting file '{}' to {} ...".format(filename, style))
 
 
 if __name__ == '__main__':
